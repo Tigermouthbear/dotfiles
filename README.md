@@ -11,7 +11,7 @@ not really setup for others to install very easily, but have a peek if you'd lik
 - Font: DejaVuSansMono Nerd Font
 
 ## Themes + Screenshots
-change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
+theme set in dwm/scripts/run.sh or toggled with ALT+R
 <details>
   <summary>berserk</summary>
   <img src="https://i.tigr.dev/lelkaeni.png">
