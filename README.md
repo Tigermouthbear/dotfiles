@@ -10,8 +10,28 @@ not really setup for others to install very easily, but have a peek if you'd lik
 - Display Manager: ly
 - Font: DejaVuSansMono Nerd Font
 
-## Changing Theme
-- change THEME variable in dwm/scripts/run.sh to one from dwm/themes
+## Themes + Screenshots
+change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
+<details>
+  <summary>edgerunners</summary>
+  <img src="https://i.tigr.dev/leknbszq.png">
+  <img src="https://i.tigr.dev/leknb497.png">
+</details>
+<details>
+  <summary>evangelion</summary>
+  <img src="https://i.tigr.dev/lekn4vye.png">
+  <img src="https://i.tigr.dev/lekn6cv2.png">
+</details>
+<details>
+  <summary>cyborg</summary>
+  <img src="https://i.tigr.dev/lekmwbfv.png">
+  <img src="https://i.tigr.dev/lekn29oz.png">
+</details>
+<details>
+  <summary>ouro-kronii-cyberpunk</summary>
+  <img src="https://i.tigr.dev/leknelyg.png">
+  <img src="https://i.tigr.dev/leknfeqd.png">
+</details>
 
 ## Vague Install Guide
 - clone this repo into the .config folder
