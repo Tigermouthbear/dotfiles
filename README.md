@@ -31,6 +31,7 @@ change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
   <summary>evangelion</summary>
   <img src="https://i.tigr.dev/lekn4vye.png">
   <img src="https://i.tigr.dev/lekn6cv2.png">
+</details>
 <details>
   <summary>ouro-kronii-cyberpunk</summary>
   <img src="https://i.tigr.dev/leknelyg.png">
