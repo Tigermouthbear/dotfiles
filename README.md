@@ -51,7 +51,7 @@ change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
 - ln -s dotfiles/nvim .config/nvim
 - enable alpha-nvim in nvim/lua/plugins/init.lua
 - replace NotoColorEmoji:pixelsize=10 with DejaVuSansMono Nerd Font:pixelsize=12 in st/config.h
-- change status script path in dwm/config.h at static const char \*status[]
+- change status and theme script path in dwm/config.h in the commands section
 - make install st and dwm from this repo
 - modify dwm.desktop to have correct run.sh path and copy to /usr/share/xsessions/
 - enable lock on suspend by moving slock@.service to /etc/systemd/system/ and enabling the systemd service
