@@ -24,8 +24,8 @@ change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
 </details>
 <details>
   <summary>cyborg</summary>
-  <img src="https://i.tigr.dev/lekmwbfv.png">
-  <img src="https://i.tigr.dev/lekn29oz.png">
+  <img src="https://i.tigr.dev/lekw3iuk.png">
+  <img src="https://i.tigr.dev/lekw3b0y.png">
 </details>
 <details>
   <summary>ouro-kronii-cyberpunk</summary>
