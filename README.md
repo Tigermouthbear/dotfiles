@@ -13,6 +13,16 @@ not really setup for others to install very easily, but have a peek if you'd lik
 ## Themes + Screenshots
 change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
 <details>
+  <summary>berserk</summary>
+  <img src="https://i.tigr.dev/lelkaeni.png">
+  <img src="https://i.tigr.dev/lelkaauq.png">
+</details>
+<details>
+  <summary>cyborg</summary>
+  <img src="https://i.tigr.dev/lekw3iuk.png">
+  <img src="https://i.tigr.dev/lekw3b0y.png">
+</details>
+<details>
   <summary>edgerunners</summary>
   <img src="https://i.tigr.dev/leknbszq.png">
   <img src="https://i.tigr.dev/leknb497.png">
@@ -21,17 +31,17 @@ change THEME variable in dwm/scripts/run.sh to one of these from dwm/themes
   <summary>evangelion</summary>
   <img src="https://i.tigr.dev/lekn4vye.png">
   <img src="https://i.tigr.dev/lekn6cv2.png">
-</details>
-<details>
-  <summary>cyborg</summary>
-  <img src="https://i.tigr.dev/lekw3iuk.png">
-  <img src="https://i.tigr.dev/lekw3b0y.png">
-</details>
 <details>
   <summary>ouro-kronii-cyberpunk</summary>
   <img src="https://i.tigr.dev/leknelyg.png">
   <img src="https://i.tigr.dev/leknfeqd.png">
 </details>
+<details>
+  <summary>windowsjp</summary>
+  <img src="https://i.tigr.dev/lelkb0r7.png">
+  <img src="https://i.tigr.dev/lelkbu8s.png">
+</details>
+
 
 ## Vague Install Guide
 - clone this repo into the .config folder
