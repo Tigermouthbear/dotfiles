@@ -45,12 +45,11 @@ theme set in dwm/scripts/run.sh or toggled with ALT+R
 
 
 ## Vague Install Guide
-- clone this repo into the .config folder
 - install picom, nvim, and ly
-- ln -s ../../../nvim.lua dotfiles/nvim/lua/custom/init.lua
-- ln -s dotfiles/nvim .config/nvim
-- enable alpha-nvim in nvim/lua/plugins/init.lua
-- replace NotoColorEmoji:pixelsize=10 with DejaVuSansMono Nerd Font:pixelsize=12 in st/config.h
+- clone this repo into the .config folder and cd into it
+- rm -rf nvim/lua/custom && ln -s ../../nvcustom nvim/lua/custom
+- ln -s nvim ~/.config/nvim
+- replace NotoColorEmoji:pixelsize=10 with DejaVuSansM Nerd Font:pixelsize=12 in st/config.h
 - change status and theme script path in dwm/config.h in the commands section
 - make install st and dwm from this repo
 - modify dwm.desktop to have correct run.sh path and copy to /usr/share/xsessions/
