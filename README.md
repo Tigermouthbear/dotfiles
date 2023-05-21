@@ -45,10 +45,10 @@ theme set in dwm/scripts/run.sh or toggled with ALT+R
 
 
 ## Vague Install Guide
-- install picom, nvim, and ly
+- install picom, feh, nvim (and xsel for clipboard support), pulseaudio or pipewire(w/ pulseaudio support), and ly
 - clone this repo into the .config folder and cd into it
 - rm -rf nvim/lua/custom && ln -s ../../nvcustom nvim/lua/custom
-- ln -s nvim ~/.config/nvim
+- ln -s dotfiles/nvim ~/.config/nvim
 - replace NotoColorEmoji:pixelsize=10 with DejaVuSansM Nerd Font:pixelsize=12 in st/config.h
 - change status and theme script path in dwm/config.h in the commands section
 - make install st and dwm from this repo
