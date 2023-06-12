@@ -45,7 +45,7 @@ local plugins = {
     config = function()
       require("better_escape").setup()
     end,
-  },
+  }
 
   -- To make a plugin not be loaded
   -- {

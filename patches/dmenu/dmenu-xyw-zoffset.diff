@@ -1,0 +1,20 @@
+--- dmenu.c.old	2023-06-12 13:41:44.078789331 -0400
++++ dmenu.c	2023-06-12 13:42:20.005387809 -0400
+@@ -732,7 +732,7 @@
+ 
+ 		x = info[i].x_org + dmx;
+ 		y = info[i].y_org + (topbar ? dmy : info[i].height - mh - dmy);
+-		mw = (dmw>0 ? dmw : info[i].width);
++		mw = (dmw>0 ? info[i].width - dmw : info[i].width);
+ 		XFree(info);
+ 	} else
+ #endif
+@@ -742,7 +742,7 @@
+ 			    parentwin);
+ 		x = dmx;
+ 		y = topbar ? dmy : wa.height - mh - dmy;
+-		mw = (dmw>0 ? dmw : wa.width);
++		mw = (dmw>0 ? wa.width - dmw : wa.width);
+ 	}
+ 	promptw = (prompt && *prompt) ? TEXTW(prompt) - lrpad / 4 : 0;
+ 	inputw = mw / 3; /* input width: ~33% of monitor width */
