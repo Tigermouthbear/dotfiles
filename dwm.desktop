@@ -1,7 +1,6 @@
 [Desktop Entry]
 Name=dwm
 Comment=Use this session to run dwm as your desktop environment
-Exec=/home/tigr/.config/dotfiles/dwm-flexipatch/scripts/./run.sh
+Exec=~/.config/dotfiles/dwm-flexipatch/scripts/./run.sh
 Icon=dwm
 Type=XSession
-
