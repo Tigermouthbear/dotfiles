@@ -46,13 +46,12 @@ theme set in dwm/scripts/run.sh or toggled with ALT+R
 
 ## Vague Install Guide
 - install picom, feh, nvim (and xsel for clipboard support), pulseaudio or pipewire(w/ pulseaudio support), and ly
-- clone this repo into the .config folder and cd into it
+- clone this repo into the ~/.config folder and cd into it
 - rm -rf nvim/lua/custom && ln -s ../../nvcustom nvim/lua/custom
 - ln -s dotfiles/nvim ~/.config/nvim
 - replace NotoColorEmoji:pixelsize=10 with DejaVuSansM Nerd Font:pixelsize=12 in st/config.h
-- change status and theme script path in dwm-flexipatch/config.h in the commands section
 - make install st and dwm-flexipatch from this repo
 - patch and install dmenu and slock using the patches and configs under patches/ and *.config.h 
-- modify dwm.desktop to have correct run.sh path and copy to /usr/share/xsessions/
-- enable lock on suspend by moving slock@.service to /etc/systemd/system/ and enabling the systemd service
+- cp dwm.desktop /usr/share/xsessions/
+- cp slock@.service /etc/systemd/system/ && sudo systemctl enable slock@[user] && sudo systemctl start slock@[user]
 - block VT switching and prevent killing X
