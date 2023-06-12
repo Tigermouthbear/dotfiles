@@ -3,10 +3,16 @@
 	url = https://github.com/Tigermouthbear/dwm.git
 [submodule "slock"]
 	path = slock
-	url = https://github.com/Tigermouthbear/slock.git
+	url = https://git.suckless.org/slock
 [submodule "st"]
 	path = st
 	url = https://github.com/lukesmithxyz/st
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/NvChad/NvChad
+[submodule "dwm-flexipatch"]
+	path = dwm-flexipatch
+	url = https://github.com/Tigermouthbear/dwm.git
+[submodule "dmenu"]
+	path = dmenu
+	url = https://git.suckless.org/dmenu
