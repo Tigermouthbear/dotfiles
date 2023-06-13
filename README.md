@@ -50,6 +50,7 @@ theme set in dwm/scripts/run.sh or toggled with ALT+R
 - rm -rf nvim/lua/custom && ln -s ../../nvcustom nvim/lua/custom
 - ln -s dotfiles/nvim ~/.config/nvim
 - replace NotoColorEmoji:pixelsize=10 with DejaVuSansM Nerd Font:pixelsize=12 in st/config.h
+- change status and theme script path in dwm-flexipatch/config.h in the commands section
 - make install st and dwm-flexipatch from this repo
 - patch and install dmenu and slock using the patches and configs under patches/ and *.config.h 
 - cp dwm.desktop /usr/share/xsessions/
