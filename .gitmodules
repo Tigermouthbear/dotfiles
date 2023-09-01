@@ -6,7 +6,7 @@
 	url = https://git.suckless.org/slock
 [submodule "st"]
 	path = st
-	url = https://github.com/lukesmithxyz/st
+	url = https://github.com/siduck/st
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/NvChad/NvChad
