@@ -5,13 +5,16 @@ not really setup for others to install very easily, but have a peek if you'd lik
 - Window Manager: dwm (custom status bar + various patches)
 - Compositor: picom
 - Screen Lock: slock (dwm logo patch)
-- Terminal: st (Luke Smith's build)
+- Terminal: st (siduck)
 - Editor: nvim (NvChad config)
 - Display Manager: ly
 - Font: DejaVuSansMono Nerd Font
 
-## Themes + Screenshots
-theme set in dwm/scripts/run.sh or toggled with ALT+R
+## Screenshots
+theme toggled with ALT+R, top or bottom bar set in dwm config.h
+<details>
+    <summary>reflections</summary>
+    <img src="https://i.tigr.dev/lm005j0m.png">
 <details>
   <summary>berserk</summary>
   <img src="https://i.tigr.dev/lelkaeni.png">
