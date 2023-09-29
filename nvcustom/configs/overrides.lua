@@ -12,7 +12,8 @@ M.treesitter = {
     "c",
     "markdown",
     "markdown_inline",
-    "svelte"
+    "svelte",
+    "python"
   },
   indent = {
     enable = true,
@@ -38,7 +39,11 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
-    "svelte"
+
+    "svelte-language-server",
+
+    "pyright",
+    "pylint"
   },
 }
 
