@@ -15,6 +15,7 @@ theme toggled with ALT+R, top or bottom bar set in dwm config.h
 <details>
     <summary>reflections</summary>
     <img src="https://i.tigr.dev/lm005j0m.png">
+</details>
 <details>
   <summary>berserk</summary>
   <img src="https://i.tigr.dev/lelkaeni.png">
@@ -45,7 +46,6 @@ theme toggled with ALT+R, top or bottom bar set in dwm config.h
   <img src="https://i.tigr.dev/lelkb0r7.png">
   <img src="https://i.tigr.dev/lelkbu8s.png">
 </details>
-
 
 ## Vague Install Guide
 - install picom, feh, nvim (and xsel for clipboard support), pulseaudio or pipewire(w/ pulseaudio support), and ly
